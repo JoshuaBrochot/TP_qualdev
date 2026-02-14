@@ -4,9 +4,9 @@ public class Tache {
     private String nom;
     private Boolean termine;
 
-    public Tache(String nom, Boolean termine) {
+    public Tache(String nom) {
         this.nom = nom;
-        this.termine = termine;
+        this.termine = Boolean.FALSE;
     }
 
     public String getNom() {

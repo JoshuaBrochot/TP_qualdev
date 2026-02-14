@@ -13,5 +13,12 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+
+        Liste liste = new Liste();
+
+        liste.addTache("faire le tp");
+        liste.addTache("réussir");
+
+        liste.voirTaches();
     }
 }
