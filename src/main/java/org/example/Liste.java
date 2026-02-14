@@ -11,8 +11,12 @@ public class Liste {
     }
 
     public void voirTaches() {
-        for (int i = 0; i < this.liste_tache.toArray().length; i++) {
-            System.out.println(this.liste_tache.get(i).getNom());
+        try {
+            for (int i = 0; i < this.liste_tache.toArray().length; i++) {
+                System.out.println(this.liste_tache.get(i).getNom());
+            }
+        } catch (Exception e) {
+            throw new Error("erreur dans la visualiation des taches");
         }
     }
 

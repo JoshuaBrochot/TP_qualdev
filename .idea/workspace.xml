@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf60f5e-15fa-4843-8c21-c09da4fed595" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/TMA.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/TMA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Liste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TacheTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Liste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Liste.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
     </list>
@@ -43,8 +44,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.TacheTest.TestGetterSetterNom.executor": "Run",
+    "JUnit.TacheTest.TestGetterSetterNomNonCorrect.executor": "Run",
+    "JUnit.TacheTest.executor": "Run",
+    "Maven.TP_qualdev [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -73,6 +79,62 @@
       <recent name="org.example" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="TacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_qualdev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TacheTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TacheTest.TestGetterSetterNom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_qualdev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TacheTest" />
+      <option name="METHOD_NAME" value="TestGetterSetterNom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TacheTest.TestGetterSetterNomNonCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_qualdev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TacheTest" />
+      <option name="METHOD_NAME" value="TestGetterSetterNomNonCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TacheTest.TestGetterSetterNomNonCorrect" />
+        <item itemvalue="JUnit.TacheTest" />
+        <item itemvalue="JUnit.TacheTest.TestGetterSetterNom" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771054890159</updated>
       <workItem from="1771054894306" duration="153000" />
-      <workItem from="1771055058767" duration="2304000" />
+      <workItem from="1771055058767" duration="4499000" />
     </task>
     <servers />
   </component>
